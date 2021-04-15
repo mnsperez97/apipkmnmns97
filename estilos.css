@@ -1,0 +1,35 @@
+#container{
+	width: min(100%, 1000px);
+	margin: 100px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.head{
+	background-color: #F90F0F;
+}
+
+.head img{
+	width: 80%;
+	display:block;
+	margin:auto;
+}
+
+.card{
+	width: 230px;
+	margin-top: 100px;
+	background-color: white;
+	padding: 20px;
+	border:5px solid #212121;
+	border-radius: 20px;
+}
+
+.card img{
+	width: 100%;
+}
+
+.card span{
+	color: #6e6e6e;
+	font-weight: 500;
+}
